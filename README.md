@@ -13,7 +13,11 @@
 
 * By using the Observer pattern, new display devices can be added to the system by creating a new class that inherits from DisplayDevice and implementing the update() method without modifying the existing code of the weather station or other display devices.
 
-* Likewise, display devices can unsubscribe from the weather station by calling the unsubscribe_observer() method.
+* Likewise, display devices can unsubscribe from the weather station by calling the remove_observer() method.
+ 
+<img width="572" alt="weathor_monitoring" src="https://github.com/PankajKrSingh7/design_pattern/assets/54628129/2e7ed015-e47b-4c0c-badc-e4e224a7f52f">
+
+  
 
 ### Vehicle Manufacturing System
 
@@ -26,6 +30,9 @@
 * The user provides input for the desired vehicle type, and based on that input, the corresponding factory is selected. The factory is then used to create the desired vehicle object, and its details are displayed using the get_details() method.
 
 * This implementation allows for easy extensibility by adding new vehicle types and their respective factories without modifying the existing code.
+* 
+<img width="666" alt="vehicle_manufacturing" src="https://github.com/PankajKrSingh7/design_pattern/assets/54628129/8759d131-862b-48f5-b7c2-d9890b70e2c9">
+
 
 
 
